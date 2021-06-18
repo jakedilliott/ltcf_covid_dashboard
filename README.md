@@ -4,6 +4,8 @@
 # Long Term Care Facility COVID Dashboard
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/377954746.svg)](https://zenodo.org/badge/latestdoi/377954746)
 <!-- badges: end -->
 
 The goal of LTCF Covid Dashboard is to provide a tool for Long Term Care
