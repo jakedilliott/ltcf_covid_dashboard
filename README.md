@@ -47,7 +47,7 @@ if (!require("shiny", character.only = TRUE)) {
   install.packages("shiny", dependencies = TRUE)
 }
 library(shiny)
-runGitHub("jakedilliott/ltcf_covid_dashboard")
+runGitHub("jakedilliott/ltcf_covid_dashboard", ref = "main")
 ```
 
 ## Running the files on your local machine
