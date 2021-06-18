@@ -11,9 +11,6 @@ Facility staff and stakeholders to explore the spread of COVID-19 with
 in long term care facilities and the effects of variables like
 vaccination rates, community prevalence, and testing cadence.
 
-More information on this tool and it’s implications can be found at
-[Link to paper](https://github.com/jakedilliott/ltcf_covid_dashboard)
-
 # File structure
 
     ltcf_covid_dashboard
@@ -47,7 +44,7 @@ if (!require("shiny", character.only = TRUE)) {
   install.packages("shiny", dependencies = TRUE)
 }
 library(shiny)
-runGitHub("jakedilliott/ltcf_covid_dashboard")
+runGitHub("jakedilliott/ltcf_covid_dashboard", ref = "main")
 ```
 
 ## Running the files on your local machine
